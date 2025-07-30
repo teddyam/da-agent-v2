@@ -150,7 +150,7 @@ To evaluate the agent's SQL query generation capabilities:
 npm run eval:sql
 
 # Run a single test case (useful for debugging)
-npm run eval:sql -- --run-one
+npm run eval:sql:one
 ```
 
 The evaluation will:
@@ -168,7 +168,7 @@ To evaluate the agent's Adaptive Card visualization capabilities:
 npm run eval:ac
 
 # Run a single test case (useful for debugging)
-npm run eval:ac -- --run-one
+npm run eval:ac:one
 ```
 
 The evaluation will:
